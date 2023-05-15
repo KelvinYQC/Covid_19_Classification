@@ -32,3 +32,8 @@ Setup:
 
 EDA: 
 - Histogram comparison on data (missing conclusion)
+
+Modeling
+- Run Transfer Learning model on data; comparison, fine-tune architecture
+- Build model from scratch
+- Other model?

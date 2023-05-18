@@ -1,39 +1,35 @@
 # Project to Classify Covid-19 X-ray Images Leverage Deep Learning
 
 ## Dataset:
+
 [CoronaHack -Chest X-Ray-Dataset](https://www.kaggle.com/datasets/praveengovi/coronahack-chest-xraydataset)
 
-
 ## Problems:
+
 Image Denoising
 X_ray Image Classification
 
-
 ## EDA:
+
 - Summarize data: record counts, missing values
-- Visualize the raw dataset using charts and tables (line/bar charts, q-q plots, heatmaps, violin, etc.) 
+- Visualize the raw dataset using charts and tables (line/bar charts, q-q plots, heatmaps, violin, etc.)
 - Image Data: Histograms, samples, outliers
 - Normalize data (equalizer?)
 - Scale the image to the same size
 
-
 ## Models:
+
 - Image Denoising
 - Denoising Autoencoders (DAE)
 - Deep Image Prior: Deep Image Prior Kaggle
 - Covid Classification
-- Sequential model (CNN) 
+- Sequential model (CNN)
 - Transfer Learning (ResNet): Kaggle ResNet
 
-## Tasks 
-Setup: 
-- Basic stats on data
-- Cleaned oath for training and testing data
+## Tasks
 
-EDA: 
-- Histogram comparison on data (missing conclusion)
+Begin draft report
 
-Modeling
-- Run Transfer Learning model on data; comparison, fine-tune architecture
-- Build model from scratch
-- Other model?
+Run models
+
+Tune Autoencoder

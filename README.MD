@@ -14,27 +14,15 @@ The metadata for each image, including the labels indicating the presence of spe
 
 Through our project, we hope to contribute to the faster and more accurate diagnosis of COVID-19, thereby enhancing the efficiency of medical response to the pandemic.
 
-## EDA:
-
-- Summarize data: record counts, missing values
-- Visualize the raw dataset using charts and tables (line/bar charts, q-q plots, heatmaps, violin, etc.)
-- Image Data: Histograms, samples, outliers
-- Normalize data (equalizer?)
-- Scale the image to the same size
-
 ## Models:
 
 - Image Denoising
-- Denoising Autoencoders (DAE)
-- Deep Image Prior: Deep Image Prior Kaggle
+  - Denoising Autoencoders (DAE)
+  - OpenCV Non-Local Means Denoising
 - Covid Classification
-- Sequential model (CNN)
-- Transfer Learning (ResNet): Kaggle ResNet
+  - Sequential model (CNN)
+  - Transfer Learning (ResNet, DenseNet, VGG, EfficientNet)
 
-## Tasks
+## Results:
 
-Begin draft report
-
-Run models
-
-Tune Autoencoder
+VGG and DenseNet have the best performance. They have reached over 99% on AUC score, which is our main metrics.
